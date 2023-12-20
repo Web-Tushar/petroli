@@ -13,3 +13,30 @@
  h1,h2,h3,h4,h5,h6,p{
   line-height: .8;
  }
+ .container{
+  width: 1144px;
+  margin: 0 auto;
+ }
+
+ /* ======header start here==== */
+  header{
+    background: #282828;
+  }
+  .header_wrapper{
+    padding: 16px 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact{
+    display: flex;
+    column-gap: 27px;
+  }
+  .contact h3,i {
+    color: #fff;
+  }
+  .social_contact{
+    display: flex;
+    column-gap: 19px;
+  }
+
+  /* ====header end here===== */
